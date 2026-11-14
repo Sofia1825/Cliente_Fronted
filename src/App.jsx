@@ -17,6 +17,10 @@ function App() {
         <Agricultores onCambio={() => setRecargarCultivos((n) => n + 1)} />
         <Cultivos actualizarTrigger={recargarCultivos} />
       </main>
+
+      <footer style={{ textAlign: 'center', marginTop: '2.5rem', color: '#555', fontSize: '0.9rem' }}>
+        <p>Proyecto Huerta Comunitaria — Ingeniería de Software • 2026</p>
+      </footer>
     </div>
   );
 }
